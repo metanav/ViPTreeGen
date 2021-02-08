@@ -225,7 +225,7 @@ elif ! [ -f "${params[0]}" ] ; then
 	exit 1
 elif [ -e "${params[1]}" ] ; then
 	echo "$Errmsg  output directory already exists." 1>&2
-	exit 1
+	###exit 1
 fi
 # }}} parse command line
 
